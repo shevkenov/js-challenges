@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App input{
+  background: rgb(216, 129, 112);
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 3px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+
+button{
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.modal-container{
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+  padding-top: 100px;
+}
+
+.modal{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 20%;
+  margin: auto;
+  background: white;
+  position: relative;
+  margin-top: 100px;
+}
+
+.modal-action{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.modal-btn{
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 1.2rem;
+}
+
+.btn-cancel{
+  background: transparent;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.btn-reject{
+  background: palevioletred;
+}
+.btn-confirm{
+  background: palegreen;
+}
+
+.btn-cancel:focus,
+.btn-confirm:focus,
+.btn-reject:focus{
+  border: 3px solid black;
+}
+
+.btn-container{
+  margin-top: 20px;
+}
+
